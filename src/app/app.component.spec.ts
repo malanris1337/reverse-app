@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import reverse from './reverse'
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -29,3 +30,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('reverse-app app is running!');
   });
 });
+
